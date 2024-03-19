@@ -8,7 +8,7 @@
 
 Borrar y modificar README
 
-# Utilizar los dos directorios
+# 1. Introducción a ARM32 y el entorno de desarrollo
 
 - code  - ahi depositar sus programas los ***archivos extensión *.s****  (Source File) algunos autores en x86 de ponen .asm y en otras plataformas ARM compatibles la extension *.s
 - Todo programa lleva su comentario en la parte de arriba, objetivo y nombre del programador minimo, como templete
