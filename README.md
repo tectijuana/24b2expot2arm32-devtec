@@ -4,7 +4,7 @@
 --->
 
 
-![](https://s3.amazonaws.com/videos.pentesteracademy.com/videos/badges/low/arm-assembly.png)
+![Uploading image.png…]()
 
 Borrar y modificar README
 
