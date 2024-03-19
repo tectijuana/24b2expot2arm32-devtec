@@ -1,33 +1,10 @@
 
-<!---
-   Para comentarios usar este bloque para documentar pendientes, secuencias, etc.
---->
-
-
-![Uploading image.png…]()
-
-Borrar y modificar README
 
 # 1. Introducción a ARM32 y el entorno de desarrollo
 
-- code  - ahi depositar sus programas los ***archivos extensión *.s****  (Source File) algunos autores en x86 de ponen .asm y en otras plataformas ARM compatibles la extension *.s
-- Todo programa lleva su comentario en la parte de arriba, objetivo y nombre del programador minimo, como templete
-- images  - de haber algo de pantallas ahi se presentaran, su busca documentarlas en MARKDOWN el código es:
 
-``` ![](images/---archivo.jpg---) recordar que no lleva espacios```
+![image](https://github.com/tectijuana/24b2expot2arm32-devtec/assets/158236387/83eb166e-dd3a-4b64-8071-6ead5fbae68b)
 
-<!---
-  Los nombres de las imagenes no deben cambiar de preferenci el nombre del programa como:  KIOSKO.cpp (su pantallas serian KISOCO.jpg, KIOSCO-1.jpg, KIOSCO-2.jpg ... )
-  Y asi procurar estar agrupados.
---->
-
-
-
-- Programa en MarkDown es inicia con tres tildes * (`) sin espacio, seguido de el lenguaje de programacion, al final del codigo se poner otra vez los mismos tilder..
-
-No se usan espacios en nombres de archivos, usar los nombres estilo camelCase (primera palabra minusculas, mayuscula solo la 1ra letra de cada palabra subsecuente):  ejemplo: sensorHumo, etc.
-
-Suerte.
 
 
 
