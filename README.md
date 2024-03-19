@@ -58,9 +58,25 @@ y fundó ARM Ltd. en 1990 para desarrollar una arquitectura de bajo consumo y al
 
 	<p align=left>
 
-		Se realiza manipulación manual de pila
+	Se realiza manipulación manual de pila
 	Solo hay 25 tipos de instrucciones básicas
 	Cada instrucción tiene sus propias condiciones con registros
+
+	Ventajas
+
+		Son mas baratos en comparacion a otros procesadores.
+		Mas eficientes energeticamente.
+		Funciona mas rapido porque realiza una operacion a la vez
+
+		
+	Desventajas
+
+		Windows no esta bien optimizado porque no es compatible binariamente con x86
+		La velocidad y banda ancha de la memoria son limitados por las frecuencias de reloj del procesador
+		Es mas complicado de debugear por la secuencia de instrucciones
+		El desempeño depende totalmente de la ejecucion, asi que si el usuario no lo ejecuta correctamente
+		puede tomar mucho tiempo para trabajar correctamente
+		
 
 </pre>
 	
