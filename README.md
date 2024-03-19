@@ -1,33 +1,10 @@
 
-<!---
-   Para comentarios usar este bloque para documentar pendientes, secuencias, etc.
---->
+
+# 1. Introducción a ARM32 y el entorno de desarrollo
 
 
-![](https://s3.amazonaws.com/videos.pentesteracademy.com/videos/badges/low/arm-assembly.png)
+![image](https://github.com/tectijuana/24b2expot2arm32-devtec/assets/158236387/83eb166e-dd3a-4b64-8071-6ead5fbae68b)
 
-Borrar y modificar README
-
-# Utilizar los dos directorios
-
-- code  - ahi depositar sus programas los ***archivos extensión *.s****  (Source File) algunos autores en x86 de ponen .asm y en otras plataformas ARM compatibles la extension *.s
-- Todo programa lleva su comentario en la parte de arriba, objetivo y nombre del programador minimo, como templete
-- images  - de haber algo de pantallas ahi se presentaran, su busca documentarlas en MARKDOWN el código es:
-
-``` ![](images/---archivo.jpg---) recordar que no lleva espacios```
-
-<!---
-  Los nombres de las imagenes no deben cambiar de preferenci el nombre del programa como:  KIOSKO.cpp (su pantallas serian KISOCO.jpg, KIOSCO-1.jpg, KIOSCO-2.jpg ... )
-  Y asi procurar estar agrupados.
---->
-
-
-
-- Programa en MarkDown es inicia con tres tildes * (`) sin espacio, seguido de el lenguaje de programacion, al final del codigo se poner otra vez los mismos tilder..
-
-No se usan espacios en nombres de archivos, usar los nombres estilo camelCase (primera palabra minusculas, mayuscula solo la 1ra letra de cada palabra subsecuente):  ejemplo: sensorHumo, etc.
-
-Suerte.
 
 
 
@@ -69,66 +46,37 @@ Estudiante:
 
 	<p align=left>
 
-Repositorio en el cual se desarrollaron distintos ejercicios en el lenguaje de 
-programacion c++, tomados del libro "Problemas para resolver con computadora" 
-1ra edicion (1985), por el autor Donald D. Spencer. 
+# Historia de ARM
+ARM, que significa "Advanced RISC Machine", es una arquitectura de procesador desarrollada por ARM Holdings.
+La historia de ARM se remonta a la década de 1980, cuando Acorn Computers Ltd. buscaba un diseño de CPU para su nueva computadora, 
+el Acorn Archimedes. En lugar de desarrollar su propia arquitectura, Acorn se asoció con VLSI Technology
+y fundó ARM Ltd. en 1990 para desarrollar una arquitectura de bajo consumo y alto rendimiento.
+</pre>
+<pre>
+	<p align=center>
+		Arquitectura
 
-Los ejercicios corresponden al capitulo 6 del libro, entre las paginas 77 a 86.
-Se realizaron 25 problemas debido a la entrega fuera del limite de tiempo.
+	<p align=left>
 
-CONDICIONES:
+	Se realiza manipulación manual de pila
+	Solo hay 25 tipos de instrucciones básicas
+	Cada instrucción tiene sus propias condiciones con registros
 
-	EXTEMPORÁNEOS DE LA FECHA DE ENTREGA, despues del 25 de marzo y 1 segundo:
+	Ventajas
 
-	-Solo 25 problemas a resolver y están en aleatorio las condiciones de uso, 
-		algunos simples otros de recordar, etc. CAPITULO 6 en adelante.
+		Son mas baratos en comparacion a otros procesadores.
+		Mas eficientes energeticamente.
+		Funciona mas rapido porque realiza una operacion a la vez
 
-	-Agregar las indicaciones de los criterios de la rùbrica
-	
-RÚBRICA:
+		
+	Desventajas
 
-        Todo problema es necesario siga el templete OBLIGATORIO para entregar el 
-		problema codificado, usted puede correr sus programas con su estilo 
-		pero ya que este funcionando, debe arreglarlo a presentación para su 
-		evaluación.
-
-        MODIFICAR LA PORTADA CON MARKDOWN Y ACTUALIZARLA, esta libre de cambiar 
-		todo.
-        Los archivos deben tener su extensión .CPP (no .txt, etc.)
-
-	Los problemas están en la relación siguiente:
-	
-	- 100% Sigue el templete proporcionado por el docente y corren 10 
-		Problemas (o si incremento en programas por supuesta dificultad) 
-		completamente en GITHUB Classroom (no repositorio personal),  los 
-		archivos deben tener su extensión .CPP (no .txt, .EXE, etc.) acomodados 
-		en dentro de un directorio  (sin acentos o simbolos) SOLO FUENTES, y 
-		modifica el README.md que sea una portada.
-	- 80% Sigue el templete proporcionado por el docente y corre 8 Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal), los archivos deben 
-		tener su extensión .CPP (no .txt, etc.) acomodados en dentro de un 
-		directorio (sin acentos o simbolos) SOLO FUENTES, y modifica el 
-		README.md que sea una portada.
-	- 70% Sigue el templete proporcionado por el docente y corre 7 Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal), los archivos deben 
-		tener su extensión .CPP (no .txt, etc.) acomodados en dentro de un 
-		directorio (sin acentos o simbolos) SOLO FUENTES, y modifica el 
-		README.md que sea una portada.
-	- 50 % EVITA Y NO USA el templete proporcionado por el docente sus Problemas 
-		(o si incremento en programas por supuesta dificultad) completamente 
-		en GITHUB Classroom (no repositorio personal) con mas de 7 problemas 
-		resueltos, los archivos NO tener su extensión .CPP y  puede o no estar 
-		acomodados en dentro de un directorio (sin acentos o simbolos) 
-		SOLO FUENTES, y modifica el README.md que sea una portada.
-
-ENTREGA:
-
-	URL del GitHub Classroom, y recuerde arreglar la PORTADA, quitar todos los 
-		elementos extras del templete, acomodarlo bien para su presentación 
-		solo lo necesario.
-
-	</p>
+		Windows no esta bien optimizado porque no es compatible binariamente con x86
+		La velocidad y banda ancha de la memoria son limitados por las frecuencias de reloj del procesador
+		Es mas complicado de debugear por la secuencia de instrucciones
+		El desempeño depende totalmente de la ejecucion, asi que si el usuario no lo ejecuta correctamente
+		puede tomar mucho tiempo para trabajar correctamente
+		
 
 </pre>
+	
