@@ -51,7 +51,7 @@ ARM, que significa "Advanced RISC Machine", es una arquitectura de procesador de
 La historia de ARM se remonta a la década de 1980, cuando Acorn Computers Ltd. buscaba un diseño de CPU para su nueva computadora, 
 el Acorn Archimedes. En lugar de desarrollar su propia arquitectura, Acorn se asoció con VLSI Technology
 y fundó ARM Ltd. en 1990 para desarrollar una arquitectura de bajo consumo y alto rendimiento.
-
+</pre>
 <pre>
 	<p align=center>
 		Arquitectura
