@@ -43,16 +43,20 @@ Estudiante:
 </pre>
 
 <pre>
-    <p align=left>
 
-# <font color="yellow" size="+1">Historia de ARM</font>
-<font color="yellow" size="+1">ARM</font>, que significa "Advanced RISC Machine", es una arquitectura de procesador desarrollada por ARM Holdings.
+	<p align=center>
+		Historia de ARM
+
+	<p align=left>
+
+
+ARM, que significa "Advanced RISC Machine", es una arquitectura de procesador desarrollada por ARM Holdings.
 La historia de ARM se remonta a la década de 1980, cuando Acorn Computers Ltd. buscaba un diseño de CPU para su nueva computadora, 
 el Acorn Archimedes. En lugar de desarrollar su propia arquitectura, Acorn se asoció con VLSI Technology
 y fundó ARM Ltd. en 1990 para desarrollar una arquitectura de bajo consumo y alto rendimiento.
-</font>
-</p>
-</pre>
+		![image](https://github.com/tectijuana/24b2expot2arm32-devtec/assets/158236387/06dd67e7-fdb4-4214-b3cf-72700ac981f1)
+
+	</pre>
 
 <pre>
 	<p align=center>
