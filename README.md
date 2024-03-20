@@ -54,9 +54,29 @@ ARM, que significa "Advanced RISC Machine", es una arquitectura de procesador de
 La historia de ARM se remonta a la década de 1980, cuando Acorn Computers Ltd. buscaba un diseño de CPU para su nueva computadora, 
 el Acorn Archimedes. En lugar de desarrollar su propia arquitectura, Acorn se asoció con VLSI Technology
 y fundó ARM Ltd. en 1990 para desarrollar una arquitectura de bajo consumo y alto rendimiento.
-		![image](https://github.com/tectijuana/24b2expot2arm32-devtec/assets/158236387/06dd67e7-fdb4-4214-b3cf-72700ac981f1)
+
+		
+En la imagen de a continuacion muestra la evolución de los microprocesadores desde 1971 hasta 2001. 
+Se pueden observar varios cambios importantes a lo largo de las generaciones:
+		
+Aumento del número de transistores: Más transistores significan mayor velocidad, potencia y eficiencia.
+
+Reducción del tamaño: Los dispositivos electrónicos son más pequeños y portátiles.
+
+Aumento de la velocidad de reloj: Las tareas se ejecutan más rápido.
+
+Nuevos conjuntos de instrucciones: Mayor capacidad para ejecutar tareas.
+
+Arquitectura multi-núcleo: Mayor eficiencia y potencia.
+
+Integración de otros componentes: Mayor eficiencia y compacidad.
+
+Otros cambios: Introducción de la arquitectura x86, desarrollo de procesadores de 16 bits y 32 bits, aparición de nuevos competidores.
 
 	</pre>
+![image](https://github.com/tectijuana/24b2expot2arm32-devtec/assets/158236387/b4a69915-d551-4133-95fe-4d34652827f0)
+
+
 
 <pre>
 	<p align=center>
