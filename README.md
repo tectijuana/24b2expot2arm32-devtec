@@ -106,4 +106,49 @@ Otros cambios: Introducción de la arquitectura x86, desarrollo de procesadores 
 
 </pre>
 
+</pre>
+
+<pre>
+	<p align=left>
+	Configuración del entorno de desarrollo en Raspberry Pi.
+	<p align=center>
+	1. Actualizar el sistema operativo
+	<p align=left>
+	Es importante comenzar actualizando el sistema operativo de tu Raspberry Pi a la última versión. 
+	Esto te asegurará tener las últimas correcciones de errores y seguridad, 
+	así como las últimas versiones de las herramientas de desarrollo.
+
+	Codigo:
+		sudo apt update
+		sudo apt upgrade
+
+	<p align=center>
+	2. Instalar herramientas de desarrollo
+	<p align=left>
+	A continuación, instalar las herramientas de desarrollo esenciales, 
+	como el compilador GCC para ARM, el comando make y el depurador GDB.
+
+	Codigo:
+		sudo apt install gcc-arm-linux-gnueabihf
+		sudo apt install make
+		sudo apt install gdb
+
+	<p align=center>
+	3. Configurar el entorno de desarrollo
+	<p align=left>
+	Ahora se podra configurar el entorno de desarrollo.
+	
+	3.1. Configurar el path
+
+	Edita el archivo ~/.bashrc y agrega la siguiente línea al final:
+		export PATH=$PATH:$HOME/bin
+	Esto te permitirá ejecutar comandos desde tu directorio personal sin tener que escribir la ruta completa.
+
+	3.2. Configurar el editor de código.
+
+	Elige un editor de código que te guste, como nano, vim o Visual Studio Code. 
+	Si usas nano, puedes configurarlo para que resalte la sintaxis del código C/C++ 
+	agregando la siguiente línea al archivo ~/.nanorc:
+		set syntax=c
+</pre>	
 	
