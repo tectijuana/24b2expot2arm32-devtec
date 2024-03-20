@@ -92,7 +92,7 @@ Otros cambios: Introducción de la arquitectura x86, desarrollo de procesadores 
 	Solo hay 25 tipos de instrucciones básicas
 	Cada instrucción tiene sus propias condiciones con registros
 
-	Ventajas
+	Ventajas.
 
 		Son mas baratos en comparacion a otros procesadores.
 		Mas eficientes energeticamente.
