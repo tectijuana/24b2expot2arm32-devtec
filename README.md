@@ -33,10 +33,14 @@ Unidad:
 1
 
 Título del trabajo:
-Ejercicios ......
+Introducción a ARM32 y el entorno de desarrollo
 
 Estudiante:
-.......
+Juan Flores Fernandez
+ROSY SALAZAR
+Saul Perez
+Adrian Valdes Cansino
+Angel Gabriel Quiñones Agramon
 
 	</p>
 
